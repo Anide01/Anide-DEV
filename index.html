@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Anide_DEV - Développeur web freelance</title>
+	<title>Anide_DEV - Agence </title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
@@ -71,7 +71,7 @@
 							<a class="nav-link" href="#portfolio">Réalisations</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#tarif">Tarifs</a>
+							<a class="nav-link" href="whatsapp:+22968456378">Tarifs</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" target="_blank" href="#contact">Contact</a>
@@ -821,111 +821,7 @@ Nos designers graphiques conçoivent des visuels attrayants et professionnels, t
 		</div>
 		
 	</section>
-	<section id="tarif" class="tarif">
-		<div class="container">
-			<div class="intro-about text-center">
-				<h2>Tarifs</h2>
-				<p>
-					Un tarif adapté à vos besoin !
-				</p>
-			</div>
-            <a class="btn-collapse-form-devis text-center" data-toggle="collapse" href="#tarif-form" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Une idée? Un projet? <br>
-				 N'hésitez pas à demander un devis gratuit
-            </a>
-			<div class="bloc-form-devis">
-				<div class="collapse" id="tarif-form">
-					<div class="card card-body card-body-tarif">
-                        <form action="note.php" method="POST">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="title-coordonnee">
-                                    </div>
-                                    <div class="form-coordonnee">
-                                        <div class="form-group">
-											<label for="nomprenom">Nom et Prénom*</label>
-                                            <input type="text" class="form-control input-form-tarif" name="nomprenom" id="name-tarif" placeholder="Nom / Prénom *" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input input-check-tarif" type="radio" name="inlineRadioOptions" required id="particulier" value="option1" checked>
-                                                <label class="form-check-label label-check-tarif" for="particulier">Particulier</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input input-check-tarif" type="radio" name="inlineRadioOptions" required id="association" value="option2">
-                                                <label class="form-check-label label-check-tarif" for="association">Association*</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input input-check-tarif" type="radio" name="inlineRadioOptions" required id="societe" value="option3">
-                                                <label class="form-check-label label-check-tarif" for="societe">Société*</label>
-                                            </div>
-                                        </div>
-                                        <div class="form-group" id="association-show">
-                                            <input type="text" class="form-control input-form-tarif" name="association" id="association-tarif" placeholder="Association">
-                                        </div>
-                                        <div class="form-group" id="societe-show">
-                                            <input type="text" class="form-control input-form-tarif" name="societe" id="societe-tarif" placeholder="Société">
-                                        </div>
-                                        <div class="form-group">
-										<label for="email">Email*</label>
-                                            <input type="email" class="form-control input-form-tarif" name="email" id="email-tarif" placeholder="Email *" required>
-                                        </div>
-                                        <div class="form-group">
-										<label for="telephone">Téléphone*</label>
-                                            <input type="number" class="form-control input-form-tarif" name="telephone" id="phone-tarif" placeholder="Téléphone *" required>
-                                        </div>
-                                        <div class="form-group">
-										<label for="adresse">Adresse*</label>
-                                            <input type="text" class="form-control input-form-tarif" name="adresse" id="adresse-tarif" placeholder="Adresse *" required>
-                                        </div>
-                                        <div class="form-check form-group">
-                                            <input class="form-check-input input-checkbox-tarif" type="checkbox" id="condition-tarif" value="option1" aria-label="" required>
-                                            <label class="form-check-label label-checkbox-tarif" for="condition-tarif">
-                                                En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de la demande de devis
-                                                et de la relation commerciale qui peut en découler.
-                                            </label>
-                                       </div>
-                                        <div class="alert alert-primary alert-tarif" role="alert">
-                                            <i class="fas fa-info-circle"></i>
-                                            Demande de devis gratuit. Réponse moyenne sous 72h.
-                                            Merci de détailler au maximum votre projet pour une réponse précise.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="title-coordonnee">
-                                        <h5>Votre projet</h5>
-                                    </div>
-                                    <div class="form-projet">
-                                        <select class="custom-select input-form-tarif form-group" name="typ">
-                                            <option value="Site Vitrine [Standard]">Site Vitrine [Standard]</option>
-											<option value="Site Vitrine [Personnalisé]">Site Vitrine [Personnalisé]</option>
-											<option value="Site Porfolio">Site Porfolio</option>
-											<option value="Site E-commerce">Site E-commerce</option>
-											<option value="Développement spécifique">Développement spécifique</option>
-											<option value="Blog">Blog</option>
-											<option value="Création de Logo">Création de Logo</option>
-											<option value="Conception d'Affiche/Flyer">Conception d'Affiche/Flyer</option>
-											<option value="Conception de Carte de visite">Conception de Carte de visite </option>
-											<option value="Rédaction d'Article SEO">Rédaction d'Article SEO</option>
-											<option value="Autres">Autres</option>
-                                        </select>
-                                        <div class="form-group">
-										<label for="descript">Description de votre projet</label>
-                                            <textarea class="form-control input-form-tarif" id="description-projet" name="descript" rows="3" placeholder="Description de votre projet" required></textarea>
-                                        </div>
-                                        <div class="bloc-submit-form-tarif">
-                                            <input type="submit" id="submit-form-tarif" name="envoyer" class="btn btn-primary submit-form-tarif" value="Envoyer ma demande de devis" required>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+
 	<section id="contact" class="contact relative">
 		<div class="divider-redirection absolute">
 			<img src="images/divider-redirection.png" alt="" class="img-fluid">
@@ -991,8 +887,8 @@ Nos designers graphiques conçoivent des visuels attrayants et professionnels, t
 					<ul>
 				
 						<li>
-							<a href="https://www.facebook.com/profile.php?id=61558101356399" target="_blank">
-								<i class="fab fa-facebook"></i>
+							<a href="mailto:anidedev229@gmail.com">
+								<i class="fal fa-envelope"></i>
 							</a>
 						</li>
 						<li>
